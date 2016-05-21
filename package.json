@@ -1,0 +1,26 @@
+{
+  "name": "sm-host",
+  "version": "1.0.0",
+  "description": "Tool for hosting Social Magnetics services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --es_staging --harmony_proxies index.js",
+    "debug-attach": "node --es_staging --harmony_proxies --debug-brk index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SocialMagnetics/sm-host.git"
+  },
+  "keywords": [
+    "Social",
+    "Magnetics",
+    "Service",
+    "Host"
+  ],
+  "author": "connect@socialmagnetics.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SocialMagnetics/sm-host/issues"
+  },
+  "homepage": "https://github.com/SocialMagnetics/sm-host#readme"
+}
